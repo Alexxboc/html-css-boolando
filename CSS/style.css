@@ -9,9 +9,13 @@ body {
 }
 
 .shop {
-
+    
     padding: 30px 30px;
     background-color: white;
+}
+
+.product {
+    display: inline-block;
 }
 
 .images {
