@@ -9,13 +9,15 @@ body {
 }
 
 .shop {
-    width: 1200px;
+    
     padding: 30px 30px;
     background-color: white;
 }
 
 .images {
     position:relative;
+    
+    
 }
 
 .badges {
@@ -25,7 +27,7 @@ body {
     
 }
 
-.badges>div {
+.badges div {
     display: inline-block;
     padding: 4px;
     color: white;
@@ -37,6 +39,26 @@ body {
     
 }
 
-.green {
+.bg_green {
     background-color: green;
 }
+
+.like {
+    color: black;
+    position: absolute;
+    top: 5px;
+    right:0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.text_line {
+    text-decoration: line-through;
+}
+
