@@ -9,15 +9,32 @@ body {
 }
 
 .shop {
-    
+
     padding: 30px 30px;
     background-color: white;
 }
 
 .images {
     position:relative;
-    
-    
+    display: inline-block;
+
+}
+   
+.img_1 {
+    display: block;
+}
+
+.img_2 {
+    display: none;
+}
+
+.img_change:hover .img_1 {
+    display: none;
+}
+
+.img_change:hover .img_2{
+    display: block;
+
 }
 
 .badges {
@@ -44,9 +61,12 @@ body {
 }
 
 .like {
+    padding: 12px;
+    font-size: 25px;
     color: black;
+    background-color: white;
     position: absolute;
-    top: 5px;
+    top: 20px;
     right:0;
 }
 
