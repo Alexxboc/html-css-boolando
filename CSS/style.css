@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing:border-box;
 }
+
+body {
+    background-color: lightgrey;
+}
+
+.shop {
+    width: 1200px;
+    padding: 30px 30px;
+    background-color: white;
+}
+
+.images {
+    position:relative;
+}
+
+.badges {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    
+}
+
+.badges>div {
+    display: inline-block;
+    padding: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.bg_red {
+    background-color: red;
+    
+}
+
+.green {
+    background-color: green;
+}
